@@ -1,0 +1,55 @@
+body{
+    background-color: #14bdac;
+    color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.option {
+    text-align: center;
+}
+
+.header h1{
+    font-family: 'Shadows Into Light';
+    font-size: 45px;
+}
+
+.header h4{
+    margin-top: -20px;
+    font-family: 'Shadows Into Light';
+}
+
+.size {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.build_board {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.indicator {
+    text-align: center;
+}
+
+.gameplay {
+    text-align: center;
+    font-size: 55px;
+}
+
+.build_board {
+    background-color: #8c202b;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    margin-left: 1em;
+    cursor: pointer;
+}
