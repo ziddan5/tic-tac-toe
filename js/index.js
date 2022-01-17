@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		var boardClicks = 0;
 		board.addEventListener('click', function () {
 			if (chooseWinner()) {
-				alert('Congratulation '+ winningPlayer[0] + 'Win !');
+				alert('Congratulation '+ winningPlayer[0] + ' Win !');
 			} else if (Even(boardClicks)) {
 				playerIndicator.innerHTML = "Player Two (O)";
 			} else {
